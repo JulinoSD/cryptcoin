@@ -22,6 +22,7 @@ fetch('https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?CMC_PRO_API_KEY='
                 </div>
             </div>
             `
+            document.getElementById('coin').innerHTML = text
         }
         console.log(api)
     })
